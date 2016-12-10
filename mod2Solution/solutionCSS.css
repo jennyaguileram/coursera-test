@@ -1,0 +1,15 @@
+body{
+	h1 {
+			text-align: center;
+	}
+
+}
+
+div p {color: green
+}
+
+@media (){
+	p{
+		color: blue;
+	}
+}

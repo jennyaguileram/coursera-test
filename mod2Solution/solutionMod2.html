@@ -2,9 +2,94 @@
 <html>
 <head>
 	<title>mod 2 solution</title>
+
+	<link rel=¨stylesheet¨ href=¨solutionCSS.css>
+	<style>
+	/* base***************************************/
+	h1{
+		font-family: "Calibri", Georgia, Serif;
+		text-align: center;	
+	}
+
+	h2{
+		font-family: "Calibri", Georgia, Serif;
+		text-align: right;	
+		border: 1px solid black;
+	}
+
+	h2.chik{background-color: pink;}
+	h2.bee{background-color: red;}
+	h2.sus{background-color: yellow;}
+
+	div{
+		border: 1px solid black;
+		background-color: grey;
+		margin: 10px;
+	}
+	/* desktop***************************************/
+	@media (min-width: 992px){
+		#d1{
+			width: 33%;
+		}
+		#d2{
+			width: 33%;
+		}
+		#d3{
+			width: 33%;
+		}
+	}
+	/* tablet***************************************/
+	@media (min-width: 768px) and (max-width: 991px) {
+		#d1{
+			width: 50%;
+		}
+		#d2{
+			width: 50%;
+		}
+		#d3{
+			width: 100%;
+		}
+	}
+	/* mobil***************************************/
+	@media (max-width: 767px){
+		#d1{
+			width: 100%;
+		}
+		#d2{
+			width: 100%;
+		}
+		#d3{
+			width: 100%;
+		}
+	}
+	</style>
 </head>
 <body>
-<h1>mod 2 solution</h1>
-<h2>modification</h2>
+<h1>Our Menu</h1>
+
+<div id="d1">
+	<h2 class="chik"> chicken </h2>
+	<p>
+		P1  Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
+	</p>
+</div>
+
+<div id="d2">
+	<h2 class="bee">  beef </h2>
+	<p>
+		P2  Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
+	</p>
+</div>
+
+<div id="d3">
+	<h2 class="sus"> sushi </h2>
+	<p>
+		P3  Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
+	</p>
+</div>
+
+
+
+
 </body>
 </html>
